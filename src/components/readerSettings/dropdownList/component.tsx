@@ -25,6 +25,11 @@ class DropdownList extends React.Component<
       currentTextAlignIndex: dropdownList[2].option.findIndex((item: any) => {
         return item === (StorageUtil.getReaderConfig("textAlign") || "left");
       }),
+      convertChineseIndex: dropdownList[3].option.findIndex((item: any) => {
+        return (
+          item === (StorageUtil.getReaderConfig("convertChinese") || "Default")
+        );
+      }),
     };
   }
   componentDidMount() {
@@ -98,7 +103,11 @@ class DropdownList extends React.Component<
         this.setState({
           currentTextAlignIndex: arr[1],
         });
-
+        break;
+      case "convertChinese":
+        this.setState({
+          currentTextAlignIndex: arr[1],
+        });
         break;
       default:
         break;

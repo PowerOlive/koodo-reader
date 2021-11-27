@@ -66,6 +66,7 @@
   "Font Size": "字体大小",
   "Font Family": "字体",
   "Default": "默认",
+
   "Small": "小",
   "Medium": "中",
   "Large": "大",
@@ -228,6 +229,9 @@
   "Lock": "锁定",
   "Token Info": "登录授权后，您将获得一串代码，请将代码填入以下输入框即可完成绑定",
   "Copy Link": "复制链接",
+  "Simplified to Tranditional": "简体转繁体",
+  "Tranditional to Simplified": "繁体转简体",
+  "Chinese Coversion": "繁简转换",
   "Copy Token": "复制凭证",
   "Copied": "已复制",
   "Hi! Stranger": "你好啊！朋友",
